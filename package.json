@@ -1,0 +1,23 @@
+{
+  "name": "magic-cube-solver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node test/",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisTei17/magic-cube-solver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisTei17/magic-cube-solver/issues"
+  },
+  "homepage": "https://github.com/LuisTei17/magic-cube-solver#readme",
+  "dependencies": {
+    "jasmine-node": "^3.0.0"
+  }
+}
