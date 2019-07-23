@@ -1,4 +1,5 @@
 const RubrickCube = require('./classes/RubrickCube'),
-   { rubrickCube } = new RubrickCube();
+   { rubrickCube } = new RubrickCube(),
+   cubeHelper = require('./helpers/cubeHelper');
 
-console.dir(rubrickCube[0][0][0]);
+cubeHelper.moveHorizontally(rubrickCube, 0);

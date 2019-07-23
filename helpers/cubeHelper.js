@@ -19,3 +19,10 @@ module.exports.compareCubes = (firstCube, secondCube) => {
         })
     })
 }
+
+module.exports.moveHorizontally = (cube, index) => {
+    let oldRow = cube[index], newRow;
+
+    console.dir(oldRow, {depth: null});
+
+}
